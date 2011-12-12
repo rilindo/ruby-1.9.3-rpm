@@ -1,5 +1,5 @@
-%define rubyver         1.9.2
-%define rubyminorver    p290
+%define rubyver         1.9.3
+%define rubyminorver    p0
 
 Name:           ruby
 Version:        %{rubyver}%{rubyminorver}
@@ -62,6 +62,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}
 
 %changelog
+* Mon Dec 12 2011 Rilindo Foster <grilindo.foster@monzell.cm> - 1.9.3-p0
+- Update ruby version to 1.9.3-p0
+
 * Mon Aug 29 2011 Gregory Graf <graf.gregory@gmail.com> - 1.9.2-p290
 - Update ruby version to 1.9.2-p290
 * Sat Jun 25 2011 Ian Meyer <ianmmeyer@gmail.com> - 1.9.2-p180-2
