@@ -38,6 +38,9 @@ Tested working (as sane as I could test for) on:
 
 This should on RHEL, though. Let me know if it doesn't.
 
-### Personal thoughts
-
-Working off from https://github.com/imeyer/ruby-1.9.2-rpm. Usual disclaimers apply.
+### Notes
+- Working off from https://github.com/imeyer/ruby-1.9.2-rpm. Usual disclaimers apply.
+- If you need YAML support, you will need to have libyaml installed. If you like to 
+  build your own, you can use my spec at https://github.com/rilindo/rpms/tree/master/specs/libyaml.
+  In the future, I'll add that as a requirement.
+- libffi also needs to be installed if you need Ruby-FFI. I will add that is a require in a future update.
