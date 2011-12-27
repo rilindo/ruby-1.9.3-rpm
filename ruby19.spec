@@ -62,6 +62,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}
 
 %changelog
+* Tue Dec 27 2011 Rilindo Foster <rilindo.foster@monzell.com - 1.9.3-p0
+- Update ruby version to 1.9.3-p0, made fork formal
 * Mon Aug 29 2011 Gregory Graf <graf.gregory@gmail.com> - 1.9.2-p290
 - Update ruby version to 1.9.2-p290
 * Sat Jun 25 2011 Ian Meyer <ianmmeyer@gmail.com> - 1.9.2-p180-2
