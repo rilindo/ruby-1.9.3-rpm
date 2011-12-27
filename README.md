@@ -1,6 +1,6 @@
 # What is this spec?
 
-This spec is an attempt to push for a stable replacement of Ruby 1.8.x with 1.9.3+ on RHEL based systems, based on the .spec from https://github.com/imeyer/ruby-1.9.2-rpm.
+This is a fork from https://github.com/imeyer/ruby-1.9.2-rpm.
 
 ### How to install
 
